@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ****************************setup location page  css************************** */
+.main-container {
+  padding: 20px 0px;
+}
+.ms-list {
+  list-style-type: none;
+}
+
+.ms-list-item {
+  border-radius: 0.25rem;
+  margin: 0px -24px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2.25rem;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.ms-list-item:hover {
+  width: 100%;
+  --tw-bg-opacity: 2;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.master-list {
+  padding: 0px 10px;
+}
+.master-setup-heading {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.zone-text {
+  opacity: 0.7;
+  padding: 0px 5px;
+}
+.Add-branch-btn {
+  color: white;
+  letter-spacing: 0.025em;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 10px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 89 152 / var(--tw-bg-opacity));
+  border-radius: 0.125rem;
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .search-label {
+    padding: 0px 83px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+
+.form-control.search {
+  padding: 4px 60px;
+}
+
+.search-icon {
+  height: 20px;
+  position: relative;
+  top: 28px;
+  padding: 0px 11px;
+}
+
+.edit-icon {
+  height: 20px;
+  color: rgb(9, 146, 48);
+}
+.delete-icon {
+  height: 20px;
+  color: rgb(227, 26, 26);
+}
+
+/* **********table************** */
+.table-hover tbody tr:hover {
+  background-color: rgb(173, 231, 167) !important;
+}
+.main-table {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(225, 244, 225);
+}
+.table-thead {
+  background-color: #18c22c;
+  color: white;
+}
+.table > :not(caption) > * > * {
+  padding: 10px 10px;
+}
+
+/* ***********pagination*********** */
+
+.main-pagination {
+  display: flex;
+  justify-content: space-between;
+}
+.page-no {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin: 0px -18px;
+}
+
+.show-page {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  border: none;
+  box-shadow: 1px 1px 2px 2px #c9c6c6;
+}
+.drop-show {
+  padding-left: 20px;
+}
+/************************************* Application  page css *******************************/
+
+.pending-btn {
+  border-radius: 20px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  padding: 1px 5px !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(37 99 235 / var(--tw-text-opacity)) !important;
+  background-color: rgb(174, 204, 241) !important;
+  --tw-border-opacity: 1 !important;
+  border: 1px solid blue !important;
+}
+.unpaid-btn {
+  border-radius: 20px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  padding: 1px 5px !important;
+  --tw-text-opacity: 1 !important;
+  color: black !important;
+  background-color: #f5d3d1 !important;
+  --tw-border-opacity: 1 !important;
+  border: 1px solid red !important;
+}
+
+.heading {
+  margin: 20px 0px;
+}
+
+/* 
+  .add-village-btn {
+	padding: 8px 15px;
+	text-transform: uppercase;
+	border: none;
+	background-color: rgb(223, 223, 10);
+	box-shadow: 0 8px 25px -8px var(--bs-warning);
+  
+	color: white;
+	border-radius: 10px;
+	color: black;
+  }
+  .add-village-btn:hover {
+	background-color: #0866a0 !important;
+	color: white;
+  } */
+@media only screen and (max-width: 480px) {
+  .user {
+    margin: 1px 11px;
+  }
+  .user-icon {
+    padding-left: 20px;
+    box-shadow: 1px 1px 2px 2px #069f27;
+    border-radius: 10px;
+    font-size: 12px;
+    color: black;
+    padding: 10px 8px;
+    font-weight: 500;
+  }
+  .back-btn {
+    padding: 21px 5px;
+  }
+}
